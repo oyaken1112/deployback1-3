@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": ["http://localhost:3000", "https://tech0-gen-8-step3-testapp-py1-3.azurewebsites.net"]}})
+CORS(app, resources={r"/api/*": {"origins": ["http://localhost:3000", "https://tech0-gen-8-step3-testapp-node1-3.azurewebsites.net/"]}})
 
 
 @app.route('/', methods=['GET'])
